@@ -1,0 +1,12 @@
+C:\Users\natal\AppData\Local\Programs\Python\Python39\lib\site-packages\google\api_core\_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.13). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+C:\Users\natal\AppData\Local\Programs\Python\Python39\lib\site-packages\google\auth\__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+C:\Users\natal\AppData\Local\Programs\Python\Python39\lib\site-packages\google\oauth2\__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+C:\Users\natal\AppData\Local\Programs\Python\Python39\lib\site-packages\google\api_core\_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.13). Google will not post any further updates to google.ai.generativelanguage_v1beta supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.ai.generativelanguage_v1beta.
+  warnings.warn(message, FutureWarning)
+
+Answer:
+
+RAG (Retrieval-Augmented Generation) combines retrieval and generation to answer with relevant context from a knowledge base. In RAG, documents are transformed into embeddings and stored in a vector database. At question time, the system retrieves the most relevant chunks and injects them as context, which usually improves factual grounding and reduces hallucinations.
