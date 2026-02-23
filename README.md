@@ -1,4 +1,4 @@
-# Repository 2: RAG with LangChain + Gemini + Pinecone
+# RAG with LangChain + Gemini + Pinecone
 
 This project implements a basic Retrieval-Augmented Generation (RAG) workflow using LangChain, Gemini, and Pinecone.
 
